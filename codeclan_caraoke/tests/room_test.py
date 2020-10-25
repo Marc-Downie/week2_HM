@@ -12,4 +12,7 @@ class TestRoom(unittest.TestCase):
         rooms = [self.room_1, self.room_2]
 
     def Test_room_has_guests(self):
-        self.assertEqual(2, self.room.guests)
+        self.assertEqual(1, self.room.guests)
+
+    def Test_remove_guest(self):
+        self.assertEqual(0, self.room.guests)

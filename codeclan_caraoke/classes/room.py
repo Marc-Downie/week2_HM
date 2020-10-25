@@ -10,5 +10,7 @@ class Room:
             self.room.append += self.guest
         return
         
-
-    
+    def remove_guest_in_room(self):
+        room = [self.guest_2]
+        for guest in guests:
+            self.room.append -= self.guest
