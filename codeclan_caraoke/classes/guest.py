@@ -4,7 +4,7 @@ class Guest:
         self.fav_song = fav_song
         self.money = money
 
-#testing to see if my test work (they don't - ????)
+#testing to see if my test work 
     def guest_has_name(self):
         return self.guest_1.name
     

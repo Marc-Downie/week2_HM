@@ -5,7 +5,7 @@ from classes.song import *
 
 class TestSong(unittest.TestCase):
     def setUp(self):
-        self.song_1 = Song("Enter Shikari", "Breath on space")
+        self.song_1 = Song("Enter Shikari", "Breath in space")
         self.song_2 = Song("Oasis", "Wonderwall")
         self.song_3 = Song("Daft Punk", "Around the world")
         self.song_4 = Song("A-Ha", "Take on me")
